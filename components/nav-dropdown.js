@@ -18,26 +18,18 @@ export default function NavDropdown() {
       </div>
       <div className={`${layoutStyles.navDefault} ${isDropped ? layoutStyles.isDropped : ''}`}>
       <ul>
-          <li>
-            <Link href="/#top">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/#projects">
-              <a>Projects</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/#about">
-              <a>About</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/#contact">
-              <a>Contact</a>
-            </Link>
-          </li>
+        <Link href="/#top">
+          <a><li>Home</li></a>
+        </Link>
+        <Link href="/#projects">
+          <a><li>Projects</li></a>
+        </Link>
+        <Link href="/#about">
+          <a><li>About</li></a>
+        </Link>
+        <Link href="/#contact">
+          <a><li>Contact</li></a>
+        </Link>
       </ul>
     </div>
   </div>

@@ -3,6 +3,7 @@
   --background-color: #171717;
   --card-color: #070707;
   --link-color: #61cdff;
+  --horizontal-padding: 2rem;
 }
 
 html {
@@ -34,4 +35,22 @@ a:hover {
 
 * {
   box-sizing: border-box;
+}
+
+@media (min-width: 380px) {
+  :root {
+    --horizontal-padding: 4rem;
+  }
+}
+
+@media (min-width: 500px) {
+  :root {
+    --horizontal-padding: 6rem;
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    --horizontal-padding: 8rem;
+  }
 }

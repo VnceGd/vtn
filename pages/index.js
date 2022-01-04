@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import loadable from '@loadable/component'
+
 import Layout, { siteTitle } from '../components/layout'
-import ParticleBackground from '../components/particle-background'
 import DateRange from '../components/date'
+const ParticleBackground = loadable(() => import('../components/particle-background'))
+
 import styles from '../styles/Home.module.css'
 
 import { getSortedProjectsData } from '../lib/projects'

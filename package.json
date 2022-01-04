@@ -11,6 +11,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
+    "@loadable/component": "^5.15.2",
     "date-fns": "^2.28.0",
     "fs": "0.0.1-security",
     "gray-matter": "^4.0.3",

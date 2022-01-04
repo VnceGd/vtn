@@ -53,25 +53,11 @@ export default function ParticleBackground() {
             },
           },
           particles: {
-            bounce: {
-              horizontal: { random: { enable: false, minimumValue: 0.1 }, value: 1 },
-              vertical: { random: { enable: false, minimumValue: 0.1 }, value: 1 },
-            },
-            collisions: {
-              bounce: {
-                horizontal: { random: { enable: false, minimumValue: 0.1 }, value: 1 },
-                vertical: { random: { enable: false, minimumValue: 0.1 }, value: 1 },
-              },
-              enable: false,
-              mode: "bounce",
-              overlap: { enable: true, retries: 0 },
-            },
             color: {
               value: "#00f7f7",
             },
             move: {
               angle: { offset: 0, value: 90 },
-              attract: { distance: 200, enable: false, rotate: { x: 600, y: 1200 } },
               direction: "none",
               enable: true,
               outModes: {

@@ -32,7 +32,7 @@ export default function Home({ allProjectsData }) {
           <br/>
           <h2>
             <Link href="/#projects">
-              <a>See what I've done &rarr;</a>
+              <a>See what I&apos;ve done &rarr;</a>
             </Link>            
           </h2>
         </section>
@@ -141,7 +141,7 @@ export default function Home({ allProjectsData }) {
           <a className={styles.button} href="https://osu.ppy.sh/users/4890690" target="_blank" rel="noopener noreferrer">
             osu!
             <span className={styles.logo}>
-              <img src="https://osu.ppy.sh/assets/images/osu-logo-white.59d385da.svg" alt="osu! logo" width="16" height="16" />
+              <Image src="/images/logo/osu-logo-white.svg" alt="osu! logo" width="16" height="16" />
             </span>
           </a>
         </div>

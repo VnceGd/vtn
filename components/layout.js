@@ -28,6 +28,7 @@ export default function Layout({ children, home }) {
             <Image
               src="/images/profile.jpg"
               className={layoutStyles.borderCircle}
+              alt="vtn logo"
               width={50}
               height={50}
             />

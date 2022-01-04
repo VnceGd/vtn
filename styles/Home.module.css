@@ -1,6 +1,7 @@
 .main {
   margin: auto;
   padding: 4rem var(--horizontal-padding);
+  width: fit-content;
   max-width: 80rem;
   min-height: calc(100vh - 10.5rem);
   flex: 1;

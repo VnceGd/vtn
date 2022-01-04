@@ -20,24 +20,24 @@ export async function getStaticProps() {
 export default function Home({ allProjectsData }) {
   return (
     <Layout home>
-        <Head>
-          <title>{siteTitle}</title>
-        </Head>
+      <Head>
+        <title>{siteTitle}</title>
+      </Head>
 
-        <ParticleBackground />
+      <ParticleBackground />
 
-        <section id="hero" className={styles.hero}>
-          <h1 className={styles.heading2Xl}>Web, games, content creation, and more.</h1>
-          <h3>Vincent T. Nguyen</h3>
-          <br/>
-          <h2>
-            <Link href="/#projects">
-              <a>See what I&apos;ve done &rarr;</a>
-            </Link>            
-          </h2>
-        </section>
+      <section id="hero" className={styles.hero}>
+        <h1 className={styles.heading2Xl}>Web, games, content creation, and more.</h1>
+        <h3>Vincent T. Nguyen</h3>
+        <br/>
+        <h2>
+          <Link href="/#projects">
+            <a>See what I&apos;ve done &rarr;</a>
+          </Link>            
+        </h2>
+      </section>
 
-        <section id="projects" className={styles.section}>
+      <section id="projects" className={styles.section}>
         <h1 className={styles.headingXl}>Projects</h1>
         <ul className={styles.grid}>
           {allProjectsData.map(({ id, date, title, logo, desc }) => (

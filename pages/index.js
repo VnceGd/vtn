@@ -67,11 +67,8 @@ export default function Home({ allProjectsData }) {
       <section id="about" className={styles.section}>
         <h1 className={styles.headingXl}>About</h1>
         
-        <h3>Aliases</h3>
-        <p>VnceGd / VinceGD, ZevinLevin</p>
-        <br/>
         <h3>Employment</h3>
-        <p>Software Engineer @ Unisys (Blue Bell)</p>
+        <p>Software Engineer @ Unisys</p>
         <br/>
         <h3>Education</h3>
         <p>B.S. Computer Science, Concentration in Game Programming and Development, Drexel University Class of 2021</p>
@@ -152,9 +149,8 @@ export default function Home({ allProjectsData }) {
         <h3>Discord</h3>
         <p>ZevinLevin#4019</p>
 
-        <h3>Personal</h3>
+        <h3>Email</h3>
         <p>16nguyenv@gmail.com</p>
-        <p>+1 484 557 2309</p>
       </section>
     </Layout>
   )

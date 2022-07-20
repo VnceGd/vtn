@@ -44,9 +44,9 @@ export default function ParticleBackground() {
               repulse: {
                 distance: 300,
                 duration: 3,
-                factor: 3,
+                factor: 1,
                 speed: 1,
-                maxSpeed: 50,
+                maxSpeed: 30,
                 easing: "ease-out-quad",
               },
               slow: { factor: 3, radius: 200 },

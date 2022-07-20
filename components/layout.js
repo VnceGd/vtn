@@ -26,7 +26,7 @@ export default function Layout({ children, home }) {
         <Link href="/#top">
             <a className={layoutStyles.navLogo}>
             <Image
-              src="/images/profile.jpg"
+              src="/vtn-logo.svg"
               className={layoutStyles.borderCircle}
               alt="vtn logo"
               width={50}

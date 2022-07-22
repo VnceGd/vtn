@@ -48,20 +48,6 @@ export default function Layout({ children, home }) {
 
       <footer className={styles.footer}>
         <a
-          href="https://particles.js.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>Background made with <b>tsParticles</b></span>
-        </a>
-        <a
-          href="https://fontawesome.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>Icons from <b>FontAwesome</b></span>
-        </a>
-        <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -70,6 +56,13 @@ export default function Layout({ children, home }) {
           <span className={styles.logo}>
             <Image src="/images/logo/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
+        </a>
+        <a
+          href="https://fontawesome.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>Icons from <b>FontAwesome</b></span>
         </a>
         <a
           href="https://github.com/vncegd/vtn"

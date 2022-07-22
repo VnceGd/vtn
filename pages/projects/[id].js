@@ -32,7 +32,7 @@ export default function Project({ projectData }) {
         <div className={styles.lightText}>
           <DateRange dateRangeString={projectData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+        <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
       </article>
     </Layout>
   )

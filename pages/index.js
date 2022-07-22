@@ -151,6 +151,18 @@ export default function Home({ allProjectsData }) {
 
         <h3>Email</h3>
         <p>16nguyenv@gmail.com</p>
+
+        <br></br>
+        <hr></hr>
+        <br></br>
+
+        <a
+          href="https://particles.js.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>Background made with <b>tsParticles</b></span>
+        </a>
       </section>
     </Layout>
   )

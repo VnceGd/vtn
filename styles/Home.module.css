@@ -132,6 +132,10 @@
   vertical-align: middle;
 }
 
+.articleContent img {
+  max-width: 100%;
+}
+
 @media (min-width: 1000px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);

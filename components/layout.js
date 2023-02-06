@@ -23,16 +23,14 @@ export default function Layout({ children, home }) {
       </Head>
 
       <nav className={layoutStyles.nav}>
-        <Link href="/#top">
-            <a className={layoutStyles.navLogo}>
-            <Image
-              src="/vtn-logo.svg"
-              className={layoutStyles.borderCircle}
-              alt="vtn logo"
-              width={50}
-              height={50}
-            />
-          </a>
+        <Link href="/#top" className={layoutStyles.navLogo}>
+          <Image
+            src="/vtn-logo.svg"
+            className={layoutStyles.borderCircle}
+            alt="vtn logo"
+            width={50}
+            height={50}
+          />
         </Link>
         <NavDropdown />
       </nav>
@@ -41,7 +39,7 @@ export default function Layout({ children, home }) {
         {children}
         <div className={layoutStyles.backToHome}>
           <Link href="/#top">
-            <a>← Back to {home ?  ('top') : ('home') }</a>
+            ← Back to {home ?  ('top') : ('home') }
           </Link>
         </div>
       </main>

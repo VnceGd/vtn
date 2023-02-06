@@ -35,7 +35,7 @@ export default function Home({ allProjectsData }) {
         <br/>
         <h2>
           <Link href="/#projects">
-            <a>See what I&apos;ve done &rarr;</a>
+            See what I&apos;ve done &rarr;
           </Link>            
         </h2>
       </section>
@@ -44,8 +44,8 @@ export default function Home({ allProjectsData }) {
         <h1 className={styles.headingXl}>Projects</h1>
         <ul className={styles.grid}>
           {allProjectsData.map(({ id, date, title, logo, desc }) => (
-            <Link href={`/projects/${id}`} key={id}>
-              <a className={styles.card}>
+            <Link href={`/projects/${id}`} key={id} className={styles.card}>
+              <div>
                 <Image
                   priority
                   src={logo}
@@ -58,7 +58,7 @@ export default function Home({ allProjectsData }) {
                   <DateRange dateRangeString={date} />
                 </small>
                 <p>{desc}</p>
-              </a>
+              </div>
             </Link>
           ))}
         </ul>

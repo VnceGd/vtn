@@ -11,7 +11,7 @@ export default function NavDropdown() {
     setIsDropped(!isDropped)
   }
 
-  return(
+  return (
     <div>
       <div className={`${layoutStyles.navDropdown} ${isDropped ? layoutStyles.isDropped : ''}`} onClick={toggleDropdown}>
         <FontAwesomeIcon icon={faCaretDown}/>
@@ -19,16 +19,16 @@ export default function NavDropdown() {
       <div className={`${layoutStyles.navDefault} ${isDropped ? layoutStyles.isDropped : ''}`}>
       <ul>
         <Link href="/#top">
-          <a><li>Home</li></a>
+          <li>Home</li>
         </Link>
         <Link href="/#projects">
-          <a><li>Projects</li></a>
+          <li>Projects</li>
         </Link>
         <Link href="/#about">
-          <a><li>About</li></a>
+          <li>About</li>
         </Link>
         <Link href="/#contact">
-          <a><li>Contact</li></a>
+          <li>Contact</li>
         </Link>
       </ul>
     </div>

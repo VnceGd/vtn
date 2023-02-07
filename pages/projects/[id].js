@@ -22,10 +22,11 @@ export async function getStaticPaths() {
 }
 
 export default function Project({ projectData }) {
+  const title = `Projects - ${projectData.title}`
   return (
     <Layout>
       <Head>
-        <title>Projects - {projectData.title}</title>
+        <title>{title}</title>
       </Head>
       <article>
         <h1 className={styles.headingXl}>{projectData.title}</h1>

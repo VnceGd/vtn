@@ -9,7 +9,7 @@
 html {
   background: var(--background-color);
   color: var(--text-color);
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 html,

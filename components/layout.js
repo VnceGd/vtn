@@ -6,7 +6,7 @@ import layoutStyles from './layout.module.css'
 import NavDropdown from './nav-dropdown'
 
 const name = 'Vincent T. Nguyen'
-export const siteTitle = `${name} - Developer, Designer, Streamer`
+export const siteTitle = `${name} - Software Engineer`
 
 export default function Layout({ children, home }) {
   return (
@@ -27,7 +27,7 @@ export default function Layout({ children, home }) {
           <Image
             src="/vtn-logo.svg"
             className={layoutStyles.borderCircle}
-            alt="vtn logo"
+            alt="VTN Logo"
             width={50}
             height={50}
           />
@@ -39,7 +39,7 @@ export default function Layout({ children, home }) {
         {children}
         <div className={layoutStyles.backToHome}>
           <Link href="/#top">
-            ← Back to {home ?  ('top') : ('home') }
+            ← Back to {home ? ('top') : ('home') }
           </Link>
         </div>
       </main>

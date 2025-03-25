@@ -11,9 +11,9 @@
 .navDropdown {
   display: block;
   padding: 1rem;
-  font-size: 2rem;
   float: right;
   cursor: pointer;
+  color: #fff;
   transition: transform .2s ease;
 }
 

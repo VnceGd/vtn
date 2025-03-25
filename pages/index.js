@@ -1,11 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import loadable from '@loadable/component'
 
 import Layout, { siteTitle } from '../components/layout'
 import DateRange from '../components/date'
-const ParticleBackground = loadable(() => import('../components/particle-background'))
 
 import styles from '../styles/Home.module.css'
 
@@ -26,8 +24,6 @@ export default function Home({ allProjectsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-
-      <ParticleBackground />
 
       <section id="hero" className={styles.hero}>
         <h1 className={styles.heading2Xl}>Web, games, content creation, and more.</h1>
@@ -151,18 +147,6 @@ export default function Home({ allProjectsData }) {
 
         <h3>Email</h3>
         <p>16nguyenv@gmail.com</p>
-
-        <br></br>
-        <hr></hr>
-        <br></br>
-
-        <a
-          href="https://particles.js.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>Background made with <b>tsParticles</b></span>
-        </a>
       </section>
     </Layout>
   )

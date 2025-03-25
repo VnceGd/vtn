@@ -1,8 +1,8 @@
 .main {
-  margin: auto;
+  background: linear-gradient(to bottom, black, #37607d);
+  background-blend-mode: overlay;
   padding: 4rem var(--horizontal-padding);
   width: 100%;
-  max-width: 80rem;
   min-height: calc(100vh - 10.5rem);
   flex: 1;
   display: flex;
@@ -15,25 +15,23 @@
 }
 
 .hero {
-  max-width: 50rem;
   min-height: calc(70vh - 14rem);
   padding-top: 16vh;
 }
 
 .hero a {
   color: var(--link-color);
-  border-bottom: 1px solid transparent;
-  transition: border .2s ease;
+  transition: color .2s ease;
 }
 
 .hero a:hover {
-  border-bottom: 1px solid var(--link-color);
+  color: var(--link-highlight-color);
 }
 
 .footer {
   display: flex;
   padding: 2rem var(--horizontal-padding);
-  background: rgb(117, 236, 206);
+  background: rgb(117, 210, 236);
   color: #000;
   flex-direction: column;
   align-items: flex-end;
@@ -107,7 +105,7 @@
 }
 
 .heading2Xl {
-  font-size: 2.5rem;
+  font-size: 4rem;
   line-height: 1.2;
   font-weight: 800;
   letter-spacing: -0.05rem;

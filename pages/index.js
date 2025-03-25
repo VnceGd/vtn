@@ -26,14 +26,7 @@ export default function Home({ allProjectsData }) {
       </Head>
 
       <section id="hero" className={styles.hero}>
-        <h1 className={styles.heading2Xl}>Web, games, content creation, and more.</h1>
-        <h3>Vincent T. Nguyen</h3>
-        <br/>
-        <h2>
-          <Link href="/#projects">
-            See what I&apos;ve done &rarr;
-          </Link>            
-        </h2>
+        <h1 className={styles.heading2Xl}>Work in Progress...</h1>
       </section>
 
       <section id="projects" className={styles.section}>

@@ -3,7 +3,8 @@
   --background-color: #171717;
   --card-color: #070707;
   --link-color: #61cdff;
-  --horizontal-padding: 2rem;
+  --link-highlight-color: #84d8fe;
+  --horizontal-padding: clamp(2rem, 16vw, 16rem);
 }
 
 html {
@@ -16,8 +17,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Questrial, Oxygen, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 ul {
@@ -35,22 +35,4 @@ a:hover {
 
 * {
   box-sizing: border-box;
-}
-
-@media (min-width: 380px) {
-  :root {
-    --horizontal-padding: 4rem;
-  }
-}
-
-@media (min-width: 500px) {
-  :root {
-    --horizontal-padding: 6rem;
-  }
-}
-
-@media (min-width: 700px) {
-  :root {
-    --horizontal-padding: 8rem;
-  }
 }

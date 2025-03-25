@@ -14,15 +14,11 @@ See previous versions at https://vncegd.github.io, https://vncegd.github.io/vinc
 
 `remark-html`
 
-`react-tsparticles`
-
 `@fortawesome/fontawesome-svg-core`
 
 `@fortawesome/free-solid-svg-icons`
 
 `@fortawesome/react-fontawesome`
-
-`@loadable/component`
 
 ## Attribution
 
